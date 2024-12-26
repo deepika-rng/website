@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="IEKart's is an online shopping website that sells goods in retail.">
+  <title>IEKart - Online Shopping</title>
+  <style>
+    /* CSS Section */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: green;
+      padding: 10px;
+      text-align: center;
+      color: white;
+    }
+
+    nav {
+      background-color: lightsky blue;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color:#f7f43f;
+    }
+
+    .content {
+      display: flex;
+      flex-grow: 1;
+    }
+
+    .sidebar {
+      width: 200px;
+      background-color: #13d871;
+      padding: 20px;
+      box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .maincontent {
+      flex: 1;
+      padding: 20px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li {
+      padding: 8px 0;
+    }
+
+    footer {
+      background-color: green;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: auto;
+    }
+
+    footer a {
+      color: white;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    .highlight {
+      font-weight: bold;
+      color: darkgreen;
+    }
+  </style>
+</head>
+<body>
+  <!-- HTML Section -->
+  <header>
+    <h1>Welcome to IEKart</h1>
+  </header>
+  <nav>
+    <a href="homepage.html">Home</a>
+    <a href="About us.html">About Us</a>
+    <a href="login.html">Login</a>
+    <a href="signup.html">Sign Up</a>
+    <a href="track.html">Track Order</a>
+  </nav>
+  <main class="content">
+    <div class="sidebar">
+      <h3>Electronics</h3>
+      <ul>
+        <li>Mobile Phones</li>
+        <li>Laptops</li>
+        <li>Televisions</li>
+        <li>Headphones</li>
+        <li>Cameras</li>
+      </ul>
+    </div>
+    <div class="maincontent">
+      <section>
+        <h2>Shop the Best Categories</h2>
+        <p>Explore our wide range of categories including <span class="highlight">Electronics</span>, <span class="highlight">Clothing</span>, and <span class="highlight">Accessories</span>.</p>
+      </section>
+      <section>
+        <h2>Why Choose IEKart?</h2>
+        <ul>
+          <li>Wide variety of products</li>
+          <li>Affordable prices</li>
+          <li>Fast delivery</li>
+          <li>Secure payment options</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <a href="About us.html">About Us</a> |
+    <a href="privacy.html">Privacy Policy</a> |
+    <a href="contact.html">Contact Us</a> |
+    <a href="faq.html">FAQ</a> |
+    <a href="terms.html">Terms & Conditions</a>
+    <p>&copy; 2024 IEKart Electronics</p>
+    <p>Follow us: <a href="#">FB</a> <a href="#">Twitter</a> <a href="#">g+</a></p>
+  </footer>
+</body>
+</html>
